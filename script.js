@@ -53,9 +53,10 @@ taskList.addEventListener('change', (event) => {
 
 // Event listener for the "Delete" button
 taskList.addEventListener('click', (event) => {
-  if (event.target.tagName === 'button') {
+  if (event.target.tagName === 'BUTTON') {
     const index = event.target.dataset.index;
     tasks.splice(index, 1);
     updateTaskList();
   }
 });
+
