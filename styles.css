@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#app {
+  text-align: center;
+}
+
+#task-input {
+  width: 60%;
+  padding: 10px;
+}
+
+#add-button {
+  padding: 10px 20px;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
